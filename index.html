@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Document</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+		integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+
+	<div class="filter"></div>
+	<div class="bodyfade"></div>
+	<div class="settings" id="setting"><i class="fas fa-sliders-h"></i></div>
+	<div class="doorbell" id="doorbell"><i class="fas fa-bell"></i></div>
+
+
+	<div class="notification">
+		<div class="pointer"></div>
+		<div class="notification__header">
+			<span>Notifications</span>
+			<p>Mark all as read</p>
+		</div>
+		<div class="notification__lineForheader"></div>
+		<ul>
+
+
+
+
+			<li>
+				<div class="userData">
+					<h5>Kodirov Muhammadali</h5>
+					<span>
+						<p>Code committed to the </p>
+						<p> GitLab </p>
+					</span>
+				</div>
+				<div class="notification__time">
+					<span class="clocktime">11:00 pm</span>
+					<div class="unread"></div>
+				</div>
+			</li>
+			<div class="notification__line"></div>
+
+
+
+
+
+		</ul>
+	</div>
+
+	<div class="checkboxes">
+
+		<label class="switch">
+			<input type="checkbox" name="checkbox" checked="checked" checked>
+			<span class="slider round"></span>
+			<p>Checkbox</p>
+		</label>
+		<label class="switch">
+			<input type="checkbox" name="submenu" checked="checked" checked>
+			<span class="slider round"></span>
+			<p>Submenu</p>
+		</label>
+		<label class="switch">
+			<input type="checkbox" name="first_name" checked="checked" checked>
+			<span class="slider round"></span>
+			<p>First Name</p>
+		</label>
+		<label class="switch">
+			<input type="checkbox" name="user_name" checked="checked" checked>
+			<span class="slider round"></span>
+			<p>User Name </p>
+		</label>
+		<label class="switch">
+			<input type="checkbox" name="email" checked="checked" checked>
+			<span class="slider round"></span>
+			<p>Email </p>
+		</label>
+		<label class="switch">
+			<input type="checkbox" name="address" checked="checked" checked>
+			<span class="slider round"></span>
+			<p>Address </p>
+		</label>
+		<label class="switch">
+			<input type="checkbox" name="street" checked="checked" checked>
+			<span class="slider round"></span>
+			<p>Street </p>
+		</label>
+		<label class="switch">
+			<input type="checkbox" name="zipcode" checked="checked" checked>
+			<span class="slider round"></span>
+			<p>Zipcode </p>
+		</label>
+
+		<!-- <p><input type="checkbox" name="first_name" checked="checked" /> First Name </p>
+		<p><input type="checkbox" name="user_name" checked="checked" /> User Name </p>
+		<p><input type="checkbox" name="email" checked="checked" /> Email</p>
+		<p><input type="checkbox" name="address" checked="checked" /> Address </p>
+		<p><input type="checkbox" name="street" checked="checked" /> Street </p>
+		<p><input type="checkbox" name="zipcode" checked="checked" /> Zipcode </p> -->
+	</div>
+	<div class="box">
+		<div class="fade"></div>
+
+		<table id="report">
+			<thead>
+				<tr>
+					<th class="checkbox "><input type="checkbox" checked="checked" /></th>
+					<th class="submenu"><i class="fas fa-ellipsis-h"></i></th>
+					<th class="first_name">First Name</th>
+					<th class="user_name">User Name</th>
+					<th class="email">Email</th>
+					<th class="address">Address</th>
+					<th class="street">Street</th>
+					<th class="zipcode">Zipcode</th>
+				</tr>
+			</thead>
+
+			<!-- <div class="tbody__box"> -->
+			<tbody>
+				<!-- <tr>
+
+					<td class="checkbox"><input type="checkbox" checked="checked" /></td>
+					<td class="submenu ">
+						<span class="list tooltip">
+							<div class="tooltip__effect"></div>
+							<p>Dashboard</p>
+						</span>
+						<i class="fas fa-ellipsis-h"></i>
+					</td>
+					<td class="first_name">Larry</td>
+					<td class="user_name">Hughes</td>
+					<td class="email">larry@gmail.com</td>
+					<td class="address">larry@gmail.com</td>
+					<td class="street">larry@gmail.com</td>
+					<td class="zipcode">larry@gmail.com</td>
+				</tr>
+				<tr>
+
+					<td class="checkbox"><input type="checkbox" checked="checked" /></td>
+					<td class="submenu ">
+						<span class="list tooltip">
+							<div class="tooltip__effect"></div>
+							<p>Dashboard</p>
+						</span>
+						<i class="fas fa-ellipsis-h"></i>
+					</td>
+					<td class="first_name">Larry</td>
+					<td class="user_name">Hughes</td>
+					<td class="email">larry@gmail.com</td>
+					<td class="address">larry@gmail.com</td>
+					<td class="street">larry@gmail.com</td>
+					<td class="zipcode">larry@gmail.com</td>
+				</tr>
+				<tr>
+
+					<td class="checkbox"><input type="checkbox" checked="checked" /></td>
+					<td class="submenu ">
+						<span class="list tooltip">
+							<div class="tooltip__effect"></div>
+							<p>Dashboard</p>
+						</span>
+						<i class="fas fa-ellipsis-h"></i>
+					</td>
+					<td class="first_name">Larry</td>
+					<td class="user_name">Hughes</td>
+					<td class="email">larry@gmail.com</td>
+					<td class="address">larry@gmail.com</td>
+					<td class="street">larry@gmail.com</td>
+					<td class="zipcode">larry@gmail.com</td>
+				</tr>
+				<tr>
+
+					<td class="checkbox"><input type="checkbox" checked="checked" /></td>
+					<td class="submenu ">
+						<span class="list tooltip">
+							<div class="tooltip__effect"></div>
+							<p>Dashboard</p>
+						</span>
+						<i class="fas fa-ellipsis-h"></i>
+					</td>
+					<td class="first_name">Larry</td>
+					<td class="user_name">Hughes</td>
+					<td class="email">larry@gmail.com</td>
+					<td class="address">larry@gmail.com</td>
+					<td class="street">larry@gmail.com</td>
+					<td class="zipcode">larry@gmail.com</td>
+				</tr>
+				<tr>
+
+					<td class="checkbox"><input type="checkbox" checked="checked" /></td>
+					<td class="submenu ">
+						<span class="list tooltip">
+							<div class="tooltip__effect"></div>
+							<p>Dashboard</p>
+						</span>
+						<i class="fas fa-ellipsis-h"></i>
+					</td>
+					<td class="first_name">Larry</td>
+					<td class="user_name">Hughes</td>
+					<td class="email">larry@gmail.com</td>
+					<td class="address">larry@gmail.com</td>
+					<td class="street">larry@gmail.com</td>
+					<td class="zipcode">larry@gmail.com</td>
+				</tr> -->
+
+				<!-- <tr>
+
+					<td class="checkbox"><input type="checkbox" checked="checked" /></td>
+					<td class="submenu2 ">
+						<div class="backFon"></div>
+
+						<i class="fas fa-ellipsis-h"></i>
+					</td>
+					<td class="first_name">Larry</td>
+					<td class="user_name">Hughes</td>
+					<td class="email">larry@gmail.com</td>
+					<td class="address">larry@gmail.com</td>
+					<td class="street">larry@gmail.com</td>
+					<td class="zipcode">larry@gmail.com</td>
+				</tr>
+
+
+			</tbody>
+			 </div> -->
+	</div>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="./app.js"></script>
+</body>
+
+</html>
