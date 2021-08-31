@@ -48,8 +48,8 @@ body {
 	position: absolute;
 	z-index: 11;
 	padding: 20px;
-	top: 40px;
-	left: 150px;
+	top: 10px;
+	left: 100px;
 	font-size: 30px;
 	color: #fff;
 	background-color: rgb(0, 139, 139, 0.8);
@@ -66,7 +66,7 @@ body {
 	position: absolute;
 	z-index: 11;
 	padding: 20px;
-	top: 40px;
+	top: 10px;
 	left: 50%;
 	font-size: 30px;
 	color: #fff;
@@ -86,8 +86,8 @@ body {
 	position: absolute;
 	z-index: 20;
 	padding: 30px 20px 20px 50px;
-	top: 125px;
-	left: 40%;
+	top: 100px;
+	left: 37.5%;
 	width: 350px;
 	height: 400px;
 	font-size: 30px;
@@ -230,8 +230,8 @@ ul li {
 
 .checkboxes {
 	position: absolute;
-	top: 40px;
-	left: 250px;
+	top: 10px;
+	left: 200px;
 	z-index: 4;
 	background-color: rgb(0, 139, 139, 0.8);
 	display: grid;
@@ -248,7 +248,6 @@ ul li {
 }
 
 .box {
-
 	max-width: 1150px;
 	height: 550px;
 	margin: 100px auto;
@@ -260,7 +259,7 @@ ul li {
 	border-radius: 20px;
 	margin: auto;
 	z-index: 6;
-	top: 200px;
+	top: 100px;
 
 }
 
